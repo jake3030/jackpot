@@ -31,6 +31,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'formtastic',                      "~> 2.1.1"
 
   s.add_dependency "activemerchant",                  "~> 1.20"
-  s.add_dependency "devise",                          "~> 2.0"
+  s.add_dependency "devise",                          ">= 2.0"
   s.add_dependency "wicked_pdf",                      "~> 0.7"
 end
